@@ -91,7 +91,7 @@ if ($results)
           #echo "HIGHLIGHT".htmlspecialchars($highlight, ENT_QUOTES,'utf-8');
 ?>
       <li>
-        <table style="border: 1px solid black; text-align: left">
+        <table style="border: 1px solid black; text-align: left; width:100%">
 <?php
     // iterate document fields / values
 ?>
@@ -109,6 +109,9 @@ if ($results)
             <td><?php echo htmlspecialchars($doc->Abstract, ENT_NOQUOTES, 'utf-8'); ?></td>
           </tr>
           -->
+          <tr>
+            <th style="border:none">Matches</th>
+          </tr>
           <?php foreach( $highlight as $field => $value)
                 {
           ?>
