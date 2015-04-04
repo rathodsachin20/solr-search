@@ -1,0 +1,215 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+36   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/contexts at interval 0
+43   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/contexts/solr-jetty-context.xml
+1284 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1376 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+1396 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+1397 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr
+1397 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/'
+1518 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/solr.xml
+1607 [main] INFO  org.apache.solr.core.CoresLocator  – Config-defined core root directory: /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr
+1613 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 303615474
+1613 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/]
+1624 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+1625 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+1628 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+1629 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1631 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1631 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1632 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1632 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1632 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+1853 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+1856 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1857 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1858 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+1887 [main] INFO  org.apache.solr.core.CoresLocator  – Looking for core definitions underneath /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr
+1897 [main] INFO  org.apache.solr.core.CoresLocator  – Found core collection1 in /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/
+1898 [main] INFO  org.apache.solr.core.CoresLocator  – Found 1 core definitions
+1899 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/'
+2027 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+2029 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+2030 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/xz-1.4.jar' to classloader
+2030 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+2030 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+2030 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+2031 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+2031 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+2031 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+2031 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2032 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/rome-0.9.jar' to classloader
+2032 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+2032 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+2033 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2033 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+2033 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2034 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+2034 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2034 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2035 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+2035 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2035 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+2036 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2036 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2036 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2036 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2037 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+2037 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+2037 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+2038 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+2038 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2038 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+2039 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2040 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/dist/solr-cell-4.10.3.jar' to classloader
+2042 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2042 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2042 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2043 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2043 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2043 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2044 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2044 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2045 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/dist/solr-clustering-4.10.3.jar' to classloader
+2046 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2047 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2048 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/dist/solr-langid-4.10.3.jar' to classloader
+2049 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2049 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2049 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2049 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2050 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/dist/solr-velocity-4.10.3.jar' to classloader
+2240 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.SolrIndexConfig  – IndexWriter infoStream solr logging is enabled
+2249 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.10.3
+2428 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+2440 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/conf/schema.xml
+2457 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [collection1] Schema name=nsf
+2550 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+2641 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'collection1' using configuration from instancedir /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/
+2657 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.NRTCachingDirectoryFactory
+2663 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [collection1] Opening new SolrCore at /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/, dataDir=/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/
+2664 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.JmxMonitoredMap  – JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@19dc6592
+2687 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+2687 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+2699 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data
+2701 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/index/
+2701 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/index
+2711 [coreLoadExecutor-5-thread-1] ERROR org.apache.solr.core.SolrCore  – [collection1] Solr index directory '/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/index/' is locked.  Throwing exception
+2711 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@50325aa1
+2711 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.SolrCoreState  – Closing SolrCoreState
+2711 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.DefaultSolrCoreState  – SolrCoreState ref count has reached 0 - closing IndexWriter
+2712 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [collection1] Closing main searcher on request.
+2714 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2714 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – looking to close /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/index;done=false>>]
+2714 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing directory: /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data/index
+2715 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – looking to close /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data;done=false>>]
+2715 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing directory: /home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr/collection1/data
+2716 [coreLoadExecutor-5-thread-1] ERROR org.apache.solr.core.CoreContainer  – Error creating core [collection1]: Index locked for write for core collection1
+org.apache.solr.common.SolrException: Index locked for write for core collection1
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:881)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:654)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:491)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core collection1
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:516)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:785)
+	... 8 more
+2719 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example
+2720 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+2752 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8985
+6297 [qtp310220915-15] ERROR org.apache.solr.servlet.SolrDispatchFilter  – null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Index locked for write for core collection1
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Index locked for write for core collection1
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:881)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:654)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:491)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core collection1
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:516)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:785)
+	... 8 more
+
+20476 [qtp310220915-15] ERROR org.apache.solr.servlet.SolrDispatchFilter  – null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Index locked for write for core collection1
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Index locked for write for core collection1
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:881)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:654)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:491)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core collection1
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:516)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:785)
+	... 8 more
+
+45124 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  – Graceful shutdown SocketConnector@0.0.0.0:8985
+45125 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  – Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr-webapp/webapp/},/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/webapps/solr.war
+46128 [ShutdownMonitor] INFO  org.apache.solr.core.CoreContainer  – Shutting down CoreContainer instance=303615474
+46131 [ShutdownMonitor] INFO  org.eclipse.jetty.server.handler.ContextHandler  – stopped o.e.j.w.WebAppContext{/solr,file:/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/solr-webapp/webapp/},/home/sachin/Desktop/cs290N/hw1/solr-4.10.3/example/webapps/solr.war
