@@ -1,0 +1,46 @@
+
+export CLASSPATH=dist/solr-core-4.10.3.jar
+
+
+
+/bin/solr start -cloud -d <dir>    -> No cloud, Instead used legacy sharding
+
+/bin/solr stop -all
+
+
+
+
+Solr can be queried via REST clients cURL, wget, Chrome POSTMAN, etc., as well as via the native clients available for many programming languages. 
+The Solr Admin UI includes a query builder interface - see the collection1 query tab at http://localhost:8983/solr/#/collection1/query.
+Sample rest query url: http://localhost:8983/solr/collection1/select?q=*:*&wt=json&indent=true
+
+To restrict fields returned in the response, use the fl param, which takes a comma-separated list of field names.
+
+
+
+
+START WITH JETTY:
+  java -server -jar start.jar &
+
+STOP JETTY:
+  lsof -i :8983
+  kill -2 <pid>
+
+
+DELETE DOC FROM INDEX:
+  Post this to "/update?commit=true" url as xml
+  <delete><id>0000000</id></delete>
+
+INDEXING TIMES:
+  49723 docs: Time spent: 0:02:04.834  -  221MB
+  30886 docs: Time spent: 0:01:17.115  -  87MB
+  51758 docs: Time spent: 0:02:03.245  -  180MB
+
+
+
+
+Directory size:
+  du -ch  example/solr/collection1/data/index/
+
+[solr url]/update?commit=true
+
