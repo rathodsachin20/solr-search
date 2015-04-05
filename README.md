@@ -72,3 +72,7 @@ Sample rest query url: http://localhost:8983/solr/collection1/select?q=*:*&wt=js
 To restrict fields returned in the response, use the fl param, which takes a comma-separated list of field names.
 
 
+## Solr PHP Client ##
+
+*To be added*
+
